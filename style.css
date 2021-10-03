@@ -1,0 +1,63 @@
+:root {
+    --clr-primary-300: lightgray;
+    --clr-primary-400: lightblue;
+    --clr-primary-600: darkblue;
+    
+    --clr-neutral-100: #fff;
+    --clr-neutral-900: #222c2a;
+
+    --ff-primary: "Comfortaa", sans-serif;
+    --ff-accent: "Playfair Display", serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+    
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1;
+    font-family: var(--ff-accent);
+    font-weight: 900;
+    
+}
+section {
+    padding: 3rem 0;
+}
+.container {
+
+    
+}
+
+.bg-light {
+    background-color: var(--clr-primary-300);
+}
+
+.bg-dark {
+    background-color: var(--clr-primary-400);
+}
+
+.bg-accent {
+    background-color: var(--clr-primary-600);
+}
+
